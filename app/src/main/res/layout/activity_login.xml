@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan_tasarim"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/eT_login_email"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tV_login_email"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/eT_login_password"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tV_login_password"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="70dp"
+        android:text="Giriş"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btn_login_login"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eT_login_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buton_tasarim_1"
+        android:text="Giriş Yap"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="15"
+        android:shadowDy="20"
+        android:shadowRadius="20"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/tV_login_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:text="Email:"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tV_login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/eT_login_email"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Parola:"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+</RelativeLayout>

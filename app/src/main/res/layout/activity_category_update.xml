@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryUpdateActivity"
+    android:background="@drawable/arkaplan_tasarim">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Kategori Güncelle -Sil"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="31dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:text="Ad:"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/eT_categoryUpdate_categoryName"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_categoryUpdate_kaydet"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/eT_categoryUpdate_categoryName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buton_tasarim_3"
+        android:text="Güncelle"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="15"
+        android:shadowDy="20"
+        android:shadowRadius="20"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/btn_categoryUpdate_kategoriSil"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/eT_categoryUpdate_categoryName"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/btn_categoryUpdate_kaydet"
+        android:background="@drawable/buton_tasarim_2"
+        android:text="Sil"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="15"
+        android:shadowDy="20"
+        android:shadowRadius="20"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/btn_categoryUpdate_categoriesDon"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/eT_categoryUpdate_categoryName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/buton_tasarim_1"
+        android:shadowColor="@color/black"
+        android:shadowDx="15"
+        android:shadowDy="20"
+        android:shadowRadius="20"
+        android:text="Kategorilere Dön"
+        android:textColor="@color/white"
+        android:textSize="16dp"/>
+</RelativeLayout>

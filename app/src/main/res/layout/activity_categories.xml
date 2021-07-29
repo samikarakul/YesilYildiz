@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriesActivity"
+    android:background="@drawable/arkaplan_tasarim"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/logo" />
+
+        <Button
+            android:id="@+id/btn_categoryMain_mainDon"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="34dp"
+            android:layout_toEndOf="@+id/imageView4"
+            android:background="@drawable/buton_tasarim_1"
+            android:text="Filmlere Dön"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowDy="20"
+            android:shadowRadius="20"/>
+
+        <Button
+            android:id="@+id/btn_categoryMain_yeniKategori"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="34dp"
+            android:layout_toEndOf="@+id/btn_categoryMain_mainDon"
+            android:background="@drawable/buton_tasarim_1"
+            android:text="Kategori Ekle"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowDy="20"
+            android:shadowRadius="20"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recylerView_category"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">mobilVizeProjesi</string>
+    <string name="img_1">img_1</string>
+    <string name="img_2">img_2</string>
+    <string name="anasayfa">Ana Sayfa</string>
+    <string name="yenifilm">Yeni Film</string>
+    <string name="kategoriler">Kategoriler</string>
+    <string name="hakkimizda">Hakkımızda</string>
+    <string name="iletisim">İletişim</string>
+    <string name="biz">Yeşil Yıldız</string>
+    <string name="oylarim">Oylarım</string>
+
+    <string name="hakkimizda_aciklama_ilksatir">Yeşil Yıldız ile Birbirimizin Seyir Zevkine Katkıda Bulunuyoruz!</string>
+    <string name="hakkimizda_aciklama_ikincisatir">Vereceğin Tepki Ne İzleyeceğimizi Belirleyecek!</string>
+    <string name="hakkimizda_aciklama_filmibegendinmi">Filmi Beğendin Mi?</string>
+    <string name="hakkimizda_aciklama_filmibegenmedinmi">Vakit Kaybı Mıydı?</string>
+    <string name="hakkimizda_aciklama_haberver">Bizi de Haberdar Et!!</string>
+    <string name="hakkimizda_aciklama_yil">2021</string>
+
+    <string name="numara">0500 000 00 00</string>
+    <string name="adres">Kuzeykent, Orgeneral Atilla Ateş Paşa Cd. Emirler/Kastamonu Merkez/Kastamonu</string>
+</resources>

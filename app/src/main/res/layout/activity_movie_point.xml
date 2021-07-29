@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MoviePointActivity"
+    android:background="@drawable/arkaplan_tasarim">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".YeniGonderiActivity"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView_moviePoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tV_moviePoint_movieTitle"
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="30dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tV_moviePoint_movieTitle"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:text="Title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tV_moviePoint_moviePoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView_moviePoint"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="40dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn_moviePoint_puanVerPozitif"
+            android:layout_width="55dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tV_moviePoint_moviePoint"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/likerenk"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_moviePoint_puanVerNegatif"
+            android:layout_width="61dp"
+            android:layout_height="54dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tV_moviePoint_moviePoint"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/disyeni"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/btn_moviePoint_userMainDon"
+            android:layout_width="177dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btn_moviePoint_puanVerPozitif"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/buton_tasarim_1"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowDy="20"
+            android:shadowRadius="20"
+            android:text="Filmlere Don"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan_tasarim">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/arkaplan_tasarim">
+
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/toolbar_hakkimizda"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:background="@color/background_gray"-->
+<!--            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>-->
+<!--        <FrameLayout-->
+<!--            android:id="@+id/fragment_container_hakkimizda"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="150dp"
+            android:layout_height="141dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/yesil_yildiz" />
+
+        <TextView
+            android:id="@+id/hakkimizda_aciklama_ilksatir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView6"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/hakkimizda_aciklama_ilksatir"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/hakkimizda_aciklama_ikincisatir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/hakkimizda_aciklama_ilksatir"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hakkimizda_aciklama_ikincisatir"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/hakkimizda_aciklama_begendinmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/hakkimizda_aciklama_ikincisatir"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/keania_one"
+            android:text="@string/hakkimizda_aciklama_filmibegendinmi"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView_begendinmi"
+            android:layout_width="65dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/hakkimizda_aciklama_begendinmi"
+            android:layout_marginEnd="97dp"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/arti_sonra" />
+
+        <TextView
+            android:id="@+id/hakkimizda_aciklama_begenmedinmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView_begendinmi"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/keania_one"
+            android:text="@string/hakkimizda_aciklama_filmibegenmedinmi"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView_begenmedinmi"
+            android:layout_width="65dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/hakkimizda_aciklama_begenmedinmi"
+            android:layout_marginEnd="97dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/eksi_sonra" />
+
+        <TextView
+            android:id="@+id/hakkimizda_aciklama_haberver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView_begenmedinmi"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/keania_one"
+            android:text="@string/hakkimizda_aciklama_haberver"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_hakkimizda"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_menu_hakkimizda"
+        />
+</androidx.drawerlayout.widget.DrawerLayout>

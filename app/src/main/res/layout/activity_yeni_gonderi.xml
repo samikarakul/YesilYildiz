@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/arkaplan_tasarim">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".YeniGonderiActivity"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="42dp"
+            android:text="Film Öner"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/eT_yeniGonderi_movieTitle"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tV_yeniGonderi_movieTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_yeniGonderi_fotoSec"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView3"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="150dp"
+            android:layout_toEndOf="@+id/imageView_yeniGonderi_moviePhoto"
+            android:background="@drawable/buton_tasarim_1"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowDy="20"
+            android:shadowRadius="20"
+            android:text="Afiş Seç"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_yeniGonderi_paylas"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/spinner"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buton_tasarim_3"
+            android:text="Paylaş"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowDy="20"
+            android:shadowRadius="20"
+            android:textColor="@color/white"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="340dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/tV_yeniGonderi_movieGenre"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/spinner_tasarim_1"/>
+
+        <ImageView
+            android:id="@+id/imageView_yeniGonderi_moviePhoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:background="@drawable/cerceve_tasarim_1"/>
+
+        <Button
+            android:id="@+id/btn_yeniGonderi_mainDon"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/spinner"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/btn_yeniGonderi_paylas"
+            android:background="@drawable/buton_tasarim_1"
+            android:text="Filmlere Dön"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowDy="20"
+            android:shadowRadius="20"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tV_yeniGonderi_movieTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView_yeniGonderi_moviePhoto"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:text="Ad:"
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tV_yeniGonderi_movieGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/eT_yeniGonderi_movieTitle"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:text="Kategori:"
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+</ScrollView>

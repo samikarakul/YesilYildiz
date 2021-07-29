@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/arkaplan_tasarim">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MovieUpdateActivity"
+        >
+
+
+        <EditText
+            android:id="@+id/eT_movieUpdate_movieTitle"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tV_movieUpdate_movieTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView_movieUpdate_moviePhoto"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/btn_movieUpdate_fotoSec"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView8"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="120dp"
+            android:layout_toEndOf="@+id/imageView_movieUpdate_moviePhoto"
+            android:background="@drawable/buton_tasarim_1"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowDy="20"
+            android:shadowRadius="20"
+            android:text="Afiş Seç"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_movieUpdate_guncelle"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/spinner_movieUpdate"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buton_tasarim_3"
+            android:text="Güncelle"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowDy="20"
+            android:shadowRadius="20"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_movieUpdate_mainDon"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btn_movieUpdate_movieSil"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/buton_tasarim_1"
+            android:text="Fimlere Dön"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowDy="20"
+            android:shadowRadius="20"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_movieUpdate_movieSil"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/spinner_movieUpdate"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/btn_movieUpdate_guncelle"
+            android:background="@drawable/buton_tasarim_2"
+            android:text="Sil"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowDy="20"
+            android:shadowRadius="20"
+            android:textColor="@color/white"/>
+
+        <Spinner
+            android:id="@+id/spinner_movieUpdate"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tV_movieUpdate_movieGenre"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/spinner_tasarim_1"/>
+
+        <TextView
+            android:id="@+id/tV_movieUpdate_movieTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView_movieUpdate_moviePhoto"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Ad:"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tV_movieUpdate_movieGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eT_movieUpdate_movieTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Kategori:"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="30dp"
+            android:text="Film Güncelleme"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+
+    </RelativeLayout>
+</ScrollView>

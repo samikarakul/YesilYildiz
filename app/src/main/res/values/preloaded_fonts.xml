@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/amatic_sc_bold</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/coustard</item>
+        <item>@font/finger_paint</item>
+        <item>@font/gloria_hallelujah</item>
+        <item>@font/gravitas_one</item>
+        <item>@font/great_vibes</item>
+        <item>@font/holtwood_one_sc</item>
+        <item>@font/keania_one</item>
+        <item>@font/linden_hill</item>
+        <item>@font/monoton</item>
+        <item>@font/new_rocker</item>
+        <item>@font/patua_one</item>
+        <item>@font/rock_salt</item>
+        <item>@font/tienne</item>
+    </array>
+</resources>

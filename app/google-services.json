@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "112712237255",
+    "project_id": "mobilvizeprojesi",
+    "storage_bucket": "mobilvizeprojesi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112712237255:android:315a1548140691e313fee2",
+        "android_client_info": {
+          "package_name": "com.example.mobilvizeprojesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112712237255-8reof4to7r31kqc1seepc9k0uqsc6krh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1sRqBftUI_v3mu8MnBmiUCbvLXbGRDtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112712237255-8reof4to7r31kqc1seepc9k0uqsc6krh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

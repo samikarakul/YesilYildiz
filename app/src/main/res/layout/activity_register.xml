@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan_tasarim"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Üye Bilgileri"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/eT_register_email"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tV_register_mail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/eT_register_username"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tV_register_username"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/eT_register_password"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tV_register_password"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/eT_register_passwordTekrar"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tV_register_passwordTekrar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_register_register"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/eT_register_passwordTekrar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buton_tasarim_1"
+        android:text="Kaydol"
+        android:shadowColor="@color/black"
+        android:shadowDx="15"
+        android:shadowDy="20"
+        android:shadowRadius="20"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tV_register_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:text="Email:"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/tV_register_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/eT_register_email"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Kullanıcı Adı:"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/tV_register_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/eT_register_username"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Parola:"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/tV_register_passwordTekrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/eT_register_password"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Parola Tekrar:"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+</RelativeLayout>
